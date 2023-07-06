@@ -41,10 +41,7 @@ images.forEach((image) => {
     event.preventDefault();
 
     lightboxInstance = basicLightbox.create(`
-        <img width="100%" height="100%" src="${imageLink}">`,
-    {
-        closable: false
-    });
+        <img width="100%" height="100%" src="${imageLink}">`,{});
 
     lightboxInstance.show();
     });
